@@ -1,0 +1,55 @@
+.main-frame {
+    margin-top: 70px;
+}
+
+.input-frame .submit, .input-frame .price{
+    margin-left: 10px;
+}
+
+.input-frame .name {
+    width: 50%;
+}
+
+.expense-frame .well .name, .expense-frame .well .price {
+    width: 40%;
+    float: left;
+}
+
+.expense-frame .well .remove {
+    width: 10%;
+    float: left;
+    cursor: pointer;
+}
+
+.expense-frame .well .price:before{
+    content: "$";
+}
+
+.expense-frame .well label:active {
+    cursor: grabbing;
+}
+
+.expense-frame {
+    text-align: center;
+    margin-top: 20px;
+    cursor: move;
+    list-style: none;
+}
+
+.total-frame {
+    width: 20%;
+    float: right;
+    margin-left: 20px;
+    border-style: solid;
+    padding: 2px;
+}
+
+.total-header {
+    font-size: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.total-value:before {
+    content: "$";
+}
