@@ -1,0 +1,24 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "### Expense tracker app created using ReactJS and Bootstrap. Tracker has an input for new expenses (name and price). The submit button adds a new expense to the list. There is a total of all expense prices shown at the bottom of the app. Each expense has a delete option and can be reordered through drag and drop.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^3.11.1",
+    "eslint-plugin-react": "^6.8.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/librod89/Expense-Tracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/librod89/Expense-Tracker/issues"
+  },
+  "homepage": "https://github.com/librod89/Expense-Tracker#readme"
+}
